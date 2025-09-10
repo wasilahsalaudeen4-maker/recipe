@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Young+Serif&display=swap');
+
+
+body{
+    background-color: hsl(330, 100%, 98%);
+    font-family: "Outfit", sans-serif;
+    
+}
+h1{
+font-family: "Young Serif", serif;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    max-width: 500px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+}
+.img {
+    width: 490px;
+    border-radius: 10px;
+}
+.prep{
+    background-color: hsl(330, 100%, 98%);
+    padding: 5px;
+    border-radius: 10px;
+}
+h3{
+    color: hsl(332, 51%, 32%);
+    padding-left: 10px;
+}
+h2{
+    color: hsl(14, 45%, 36%);
+}
+ul li::marker{
+    color: hsl(332, 51%, 32%);
+    list-style-type: square;
+    
+}
+ol li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+span{
+    
+     color: hsl(14, 45%, 36%);
+     display: flex;
+    justify-content: center;
+    font-weight: 700;
+    margin-top: -20px;
+    
+}
+@media  screen and (max-width: 375px){
+    .card{
+        display: flex;
+        max-width: 100vw;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+}
+    
+
